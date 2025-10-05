@@ -3,6 +3,7 @@ body{
     background-color: lightblue;
     margin: 0 auto;
 }
+
 /* general */
 * {
     font-family: calibri, Arial, Helvetica, sans-serif;
@@ -19,6 +20,14 @@ body{
 #fullName{
     padding-top: 0.25rem;
 }
+h1,h2,h3,h4,p,ul,hr,section,main{
+    margin: 0;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* top */
 #selfPortrait{
     height: 5rem;
@@ -28,20 +37,13 @@ body{
     border: 0.124rem solid;
     border-color: black;
 }
-h1,h2,h3,h4,p,ul,hr,section,main{
-    margin: 0;
-}
-
 #fullName{
     text-align: center;
 }
 header{
     background-color: white;
 }
-.links{
-    display: flex;
-    justify-content: space-between;
-}
+
 /* Main */
 main{
     background-color: white;
